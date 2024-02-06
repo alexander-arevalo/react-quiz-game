@@ -44,7 +44,6 @@ const Question = ({ index, onSelectAnswer, onSkipAnswer }) => {
   } else if (answer.selectedAnswer) {
     answerState = "answered";
   }
-  //some Commented text
   return (
     <div id="question">
       <QuestionTimer
